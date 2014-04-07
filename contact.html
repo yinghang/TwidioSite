@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+
+        <!-- Bootsstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+        <!-- Font -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+
+    </head>
+
+    <body>
+        <div id="contactwallpaper">
+            <div class="container">
+
+            <header>
+                <ul class="nav nav-pills pull-right">
+                <li><a href="howthisworks.html" >HOW THIS WORKS</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li class="active"><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <a href="index.html"><img src="img/Logo.png" id="mainlogo"></a>
+                <a href="index.html"><h4 id="title">Twidio</h4></a>
+            </header>
+
+            <div class="learn">
+                <p>Contact Us</p>
+            </div>
+
+            </div>
+        </div>
+
+        <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </div>
+
+  <div>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+ 
+  <div class="button">
+    <button type="submit">Send your message</button>
+  </div>
+</form>
